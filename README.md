@@ -1,36 +1,191 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="100%" />
+</div>
 
-## Getting Started
+<br/>
 
-First, run the development server:
+<h1 align="center">🚀 Harsimarpreet Singh Sahota — Software Developer Portfolio</h1>
+
+<p align="center">
+  Built with <strong>Next.js 14</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong> <br/>
+  Designed for performance, clarity, and long-term scalability.
+</p>
+
+<br/>
+
+## 📌 Overview
+
+This repository contains the source code for my personal developer portfolio — a fully responsive, production-grade website showcasing my work, technical skills, professional experience, and impact across Alberta’s growing technology ecosystem.
+
+The goal of this portfolio is simple:
+
+> **Deliver a clean, modern, high-performance experience that reflects how I build software: scalable, efficient, and user-focused.**
+
+Designed from scratch using industry-leading best practices.
+
+<br/>
+
+---
+
+## 🧰 Tech Stack
+
+This portfolio is engineered with a modern, future-proof stack:
+
+- **Next.js 14 (App Router)** — optimized routing, server components, SEO benefits  
+- **TypeScript** — strong typing, safer and more maintainable code  
+- **Tailwind CSS** — fast UI development and consistent styling  
+- **Lucide Icons** — clean, lightweight iconography  
+- **Vercel Deployment** — global CDN, lightning-fast delivery  
+- **Responsive & Accessible** — works beautifully across devices  
+
+<br/>
+
+---
+
+## 🎨 Features
+
+### 🌟 Modern, flexible architecture  
+Built with a component-first mindset, making the UI easy to extend, customize, and evolve as my career grows.
+
+### ⚡ High-performance UI  
+Optimized images, server-side rendering, and minimal bundle footprint ensure excellent load times.
+
+### 🧩 Modular components  
+Every section — Hero, Experience, Projects, Skills, Leadership, Contact — is isolated and reusable.
+
+### 🌐 Alberta-focused narrative  
+The content reflects my contributions to the Alberta tech community, tailored for regional hiring teams.
+
+### 🤝 Recruiter-friendly layout  
+Clear navigation + direct Calendly link = 1-click communication.
+
+### 📱 Fully Responsive  
+Looks great on large monitors, laptops, tablets, and phones.
+
+<br/>
+
+---
+
+## 🛠️ Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/harsimar-portfolio.git
+cd harsimar-portfolio
+````
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<br/>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── HeroSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── ExperienceSection.tsx
+│   ├── SkillsSection.tsx
+│   ├── EducationSection.tsx
+│   ├── LeadershipSection.tsx
+│   ├── ContactSection.tsx
+│   ├── Navbar.tsx
+│   └── Footer.tsx
+├── public/
+│   └── profile.jpg
+├── types/
+│   └── index.ts
+└── tailwind.config.js
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This structure follows **Next.js best practices** with clean separation of concerns.
 
-## Deploy on Vercel
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💼 About the Developer
+
+I am a **Software Developer & Full-Stack Developer** based in Alberta, with experience building:
+
+* AI-powered applications
+* Scalable backend systems
+* High-performance front-end interfaces
+* Automated CI/CD pipelines
+* Production deployments on AWS, Vercel, and Docker
+
+I’m passionate about creating tools that bring efficiency, clarity, and impact to teams.
+
+**My mission:**
+
+> Build software that solves real problems and accelerates the teams I work with.
+
+<br/>
+
+---
+
+## 🌐 Connect With Me
+
+Let’s build something meaningful together.
+
+* **Portfolio:** [https://harsimar.dev](https://harsimar.dev) (placeholder — replace when deployed)
+* **LinkedIn:** [https://www.linkedin.com/in/harsimar-sahota](https://www.linkedin.com/in/harsimar-sahota)
+* **GitHub:** [https://github.com/Harsimar-Sahota](https://github.com/Harsimar-Sahota)
+* **Calendly:** [https://calendly.com/harsimarsahota](https://calendly.com/harsimarsahota)
+
+<br/>
+
+---
+
+## 🏆 Why This Portfolio Matters
+
+This project demonstrates:
+
+✔ Real-world front-end engineering ability
+✔ Understanding of modern frameworks (Next.js, TS, Tailwind)
+✔ Clean architecture + attention to detail
+✔ Strong design sense and developer experience awareness
+✔ Ability to ship polished, professional products
+✔ Passion for Alberta’s tech ecosystem
+
+This isn’t just a static resume — it’s a **production-quality software artifact**.
+
+<br/>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — feel free to explore, learn, or adapt.
+
+---
+
+<div align="center">
+
+**Thanks for visiting — and if you're a recruiter or engineer reviewing this repo, I’d love to connect.**
+
+</div>
+```
