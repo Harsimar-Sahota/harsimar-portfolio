@@ -27,7 +27,7 @@ const experiences: Experience[] = [
   },
   {
     company: "Alberta AI & Tech Innovation Club",
-    role: "Software Developer Intern",
+    role: "Software Developer — Fixed-Term Project",
     period: "Oct 2025 – Dec 2025",
     location: "Calgary, Alberta",
     achievements: [
