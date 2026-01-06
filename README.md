@@ -183,5 +183,5 @@ This project is licensed under the MIT License — feel free to explore, learn, 
 
 </div>
 ```
-## Notes
+Notes
 This portfolio is actively maintained and updated as new projects are completed.
