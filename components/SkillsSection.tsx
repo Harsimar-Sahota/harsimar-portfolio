@@ -9,7 +9,7 @@ const skillGroups = [
   {
     category: "Frameworks & Libraries",
     icon: <Layout className="w-5 h-5 text-pink-400" />,
-    items: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"]
+    items: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"]
   },
   {
     category: "Developer Tools & Practices",

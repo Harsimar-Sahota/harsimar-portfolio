@@ -5,13 +5,14 @@ const experiences: Experience[] = [
   {
     company: "Headway Software Solutions",
     role: "Software Developer Intern",
+    type: "Internship",
     period: "Sep 2024 – Aug 2025",
     location: "Calgary, Alberta",
     achievements: [
       "Engineered high-performance UI modules using React, reducing UI-related QA defects by 40%.",
       "Architected scalable backend APIs with Node.js and MongoDB, cutting recurring API failures by 35%.",
-      "Automated multi-environment deployments using GitHub Actions & Docker, reducing deployment effort by 70%.",
-      "Accelerated development velocity by 30% by integrating OpenAI/Gemini APIs for faster prototyping."
+      "Automated multi-environment deployments using GitHub Actions and Docker, reducing deployment effort by 70%.",
+      "Accelerated development velocity by 30% by integrating OpenAI and Gemini APIs for rapid prototyping."
     ],
     tags: [
       "React",
@@ -28,12 +29,13 @@ const experiences: Experience[] = [
   {
     company: "Alberta AI & Tech Innovation Club",
     role: "Software Developer — Fixed-Term Project",
+    type: "Fixed-Term",
     period: "Oct 2025 – Dec 2025",
     location: "Calgary, Alberta",
     achievements: [
-      "Engineered a MERN-stack AI interviewer platform that tripled member practice usage (3×).",
-      "Integrated Gemini/OpenAI APIs for dynamic Q&A, boosting engagement by 40%.",
-      "Deployed the full-stack AI platform using Vercel/AWS with Docker, cutting deploy-to-demo time from hours to minutes."
+      "Built a MERN-stack AI interviewer platform that tripled member interview practice usage (3×).",
+      "Integrated Gemini and OpenAI APIs for dynamic, adaptive Q&A flows, increasing engagement by 40%.",
+      "Deployed the full-stack platform using Docker, AWS, and Vercel, cutting demo deployment time from hours to minutes."
     ],
     tags: [
       "React",
@@ -43,6 +45,50 @@ const experiences: Experience[] = [
       "JWT",
       "Gemini APIs",
       "Docker",
+      "CI/CD"
+    ]
+  },
+  {
+    company: "Franquicia Boost",
+    role: "Software Developer (Front-End) Intern",
+    type: "Internship",
+    period: "Aug 2025 – Oct 2025",
+    location: "Calgary, Alberta · Remote",
+    achievements: [
+      "Contributed to the design and development of Franquicia Boost’s official website for a Calgary-based startup with global operations.",
+      "Implemented responsive, high-performance front-end components using React, improving usability across devices.",
+      "Customized CMS-driven content workflows to enable non-technical stakeholders to manage site updates efficiently.",
+      "Collaborated directly with the CEO and leadership team, incorporating best practices influenced by experience at companies such as Shopify."
+    ],
+    tags: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "CMS",
+      "Responsive Design",
+      "Startup Delivery"
+    ]
+  },
+  {
+    company: "Blue Giant Equipment Corporation",
+    role: "Software Developer — Industry-Sponsored Capstone Project",
+    type: "Capstone",
+    period: "Jan 2026 – Apr 2026",
+    location: "Mississauga, Ontario · Remote",
+    achievements: [
+      "Engineered a full-stack MERN application aligned with real-world industrial equipment workflows.",
+      "Designed RESTful APIs, authentication flows, and reusable React components to support scalable enterprise usage.",
+      "Implemented CI/CD pipelines using Docker and GitHub Actions to streamline testing and deployment.",
+      "Collaborated with industry stakeholders to translate operational requirements into production-ready software features."
+    ],
+    tags: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "Docker",
+      "GitHub Actions",
       "CI/CD"
     ]
   }
@@ -57,7 +103,7 @@ export default function ExperienceSection() {
             Professional Experience
           </h2>
           <p className="text-slate-400">
-            My journey in the Alberta tech ecosystem.
+            Building production-grade software across startups, industry, and research-driven teams.
           </p>
         </div>
 

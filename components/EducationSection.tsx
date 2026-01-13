@@ -35,7 +35,7 @@ export default function EducationSection() {
           <div>
             <div className="flex items-center mb-8">
               <Award className="w-6 h-6 text-accent-400 mr-3" />
-              <h2 className="text-2xl font-bold text-white">Certifications</h2>
+              <h2 className="text-2xl font-bold text-white">Certification</h2>
             </div>
 
             <div className="space-y-4">
@@ -45,30 +45,6 @@ export default function EducationSection() {
                     Train to Work at a Startup
                   </h4>
                   <p className="text-sm text-slate-400">Y Combinator</p>
-                </div>
-                <span className="text-xs font-mono text-slate-500 bg-slate-950 px-2 py-1 rounded">
-                  2025
-                </span>
-              </div>
-
-              <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 flex justify-between items-center group hover:border-slate-600 transition-all">
-                <div>
-                  <h4 className="text-white font-semibold group-hover:text-accent-400 transition-colors">
-                    Technology Foundations
-                  </h4>
-                  <p className="text-sm text-slate-400">Accenture</p>
-                </div>
-                <span className="text-xs font-mono text-slate-500 bg-slate-950 px-2 py-1 rounded">
-                  2025
-                </span>
-              </div>
-
-              <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 flex justify-between items-center group hover:border-slate-600 transition-all">
-                <div>
-                  <h4 className="text-white font-semibold group-hover:text-accent-400 transition-colors">
-                    Software Engineering Experience
-                  </h4>
-                  <p className="text-sm text-slate-400">Blackbird</p>
                 </div>
                 <span className="text-xs font-mono text-slate-500 bg-slate-950 px-2 py-1 rounded">
                   2025
