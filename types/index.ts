@@ -13,6 +13,7 @@ export interface Project {
 export interface Experience {
   company: string;
   role: string;
+  type?: string;
   period: string;
   location: string;
   achievements: string[];
