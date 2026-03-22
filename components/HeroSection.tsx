@@ -33,8 +33,7 @@ export default function HeroSection() {
 
         {/* Role */}
         <p className="text-xl md:text-2xl text-slate-300 font-medium mb-6">
-          Software Developer{" "}
-          <span className="text-slate-500 mx-2">/</span>
+          Software Developer <span className="text-slate-500 mx-2">/</span>
           Full-Stack Developer
         </p>
 
@@ -60,7 +59,15 @@ export default function HeroSection() {
             Book a Coffee Chat
             <ArrowRight className="w-4 h-4 ml-2" />
           </a>
-
+          {/* Resume */}
+          <a
+            href="/HarsimarSahota_FullStackDeveloper_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto px-8 py-3.5 rounded-full border border-accent-400 text-accent-400 hover:bg-accent-400 hover:text-slate-900 transition-all flex items-center justify-center font-semibold"
+          >
+            📄 View Resume
+          </a>
           {/* GitHub */}
           <a
             href="https://github.com/Harsimar-Sahota"

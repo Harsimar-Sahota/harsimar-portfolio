@@ -4,30 +4,33 @@ import type { LeadershipItem } from "@/types";
 const items: (LeadershipItem & { icon: React.ReactNode })[] = [
   {
     title: "Tech Thought Leader",
-    role: "13K+ Followers",
+    role: "15K+ Followers",
     description:
-      "Authored the 'AI & Full-Stack Insights' series on Hashnode, sharing knowledge on Docker, CI/CD, and AI integration with a growing community of over 13,000 followers on LinkedIn.",
-    icon: <PenTool className="w-6 h-6 text-white" />
+      "Authored the 'AI & Full-Stack Insights' series on Hashnode, sharing knowledge on Docker, CI/CD, and AI integration with a growing community of over 15,000 followers on LinkedIn.",
+    icon: <PenTool className="w-6 h-6 text-white" />,
   },
   {
     title: "Conference Volunteer",
     role: "Alberta Tech Ecosystem",
     description:
       "Actively supported major tech conferences and startup showcases with Alberta Innovates, Platform Calgary, and TechConnect Alberta, assisting founders, investors, and speakers.",
-    icon: <Users className="w-6 h-6 text-white" />
+    icon: <Users className="w-6 h-6 text-white" />,
   },
   {
     title: "Community Volunteer",
     role: "GDG Calgary",
     description:
       "Managed event logistics and supported AI/ML workshops for over 300 attendees at DevFest 2024, contributing to the success of one of Calgary's key developer events.",
-    icon: <Mic className="w-6 h-6 text-white" />
-  }
+    icon: <Mic className="w-6 h-6 text-white" />,
+  },
 ];
 
 export default function LeadershipSection() {
   return (
-    <section id="leadership" className="py-24 bg-slate-900 relative overflow-hidden">
+    <section
+      id="leadership"
+      className="py-24 bg-slate-900 relative overflow-hidden"
+    >
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-slate-800/10 to-transparent pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

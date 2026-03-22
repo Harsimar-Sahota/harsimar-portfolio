@@ -1,8 +1,10 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import RecognitionSection from "@/components/RecognitionSection";
 import HighlightsBar from "@/components/HighlightsBar";
-import ProjectsSection from "@/components/ProjectsSection";
+import ProjectsSection from "@/components/ProjectsSections";
 import ExperienceSection from "@/components/ExperienceSection";
+import Endorsements from "@/components/Endorsements";
 import SkillsSection from "@/components/SkillsSection";
 import AboutSection from "@/components/AboutSection";
 import EducationSection from "@/components/EducationSection";
@@ -16,9 +18,11 @@ export default function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
+        <RecognitionSection />
         <HighlightsBar />
         <ProjectsSection />
         <ExperienceSection />
+        <Endorsements />
         <SkillsSection />
         <AboutSection />
         <EducationSection />

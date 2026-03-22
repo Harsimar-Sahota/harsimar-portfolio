@@ -9,10 +9,10 @@ const experiences: Experience[] = [
     period: "Sep 2024 – Aug 2025",
     location: "Calgary, Alberta",
     achievements: [
-      "Engineered high-performance UI modules using React, reducing UI-related QA defects by 40%.",
-      "Architected scalable backend APIs with Node.js and MongoDB, cutting recurring API failures by 35%.",
-      "Automated multi-environment deployments using GitHub Actions and Docker, reducing deployment effort by 70%.",
-      "Accelerated development velocity by 30% by integrating OpenAI and Gemini APIs for rapid prototyping."
+      "Engineered high-performance UI modules using React and modern Javascript, reducing UI-related QA defects by 40% through reusable components and optimized rendering pipelines.",
+      "Architected scalable backend APIs with Node.js, Express, and MongoDB, cutting recurring API failures by 35% across critical workflows.",
+      "Reduced API development and debugging time by 30% through strategic use of AI-assisted code generation and debugging tools (Cursor, OpenAI/Gemini), improving delivery speed across backend workflows.",
+      "Automated multi-environment deployments using GitHub Actions + Docker, shipping builds to AWS/Vercel/Netlify and reducing deployment effort by 70% while improving QA cycle speed by 30–40%.s",
     ],
     tags: [
       "React",
@@ -23,19 +23,18 @@ const experiences: Experience[] = [
       "Docker",
       "GitHub Actions",
       "AWS",
-      "Git"
-    ]
+      "Git",
+    ],
   },
   {
     company: "Alberta AI & Tech Innovation Club",
-    role: "Software Developer — Fixed-Term Project",
-    type: "Fixed-Term",
+    role: "Contributing Developer",
     period: "Oct 2025 – Dec 2025",
     location: "Calgary, Alberta",
     achievements: [
-      "Built a MERN-stack AI interviewer platform that tripled member interview practice usage (3×).",
-      "Integrated Gemini and OpenAI APIs for dynamic, adaptive Q&A flows, increasing engagement by 40%.",
-      "Deployed the full-stack platform using Docker, AWS, and Vercel, cutting demo deployment time from hours to minutes."
+      "Developed and contributed a production-style full-stack practice platform to an 800+ member tech community, implementing React routing, centralized state management, RESTful APIs, and MongoDB schemas to support persistent, multi-user workflows.",
+      "Designed secure authentication and session management flows using JWT and backend validation, enabling reliable access and driving 3× growth in member platform usage.",
+      "Integrated AI-powered features as backend services, enhancing role-specific content delivery while preserving a web-first architecture focused on scalability, performance, and maintainability.",
     ],
     tags: [
       "React",
@@ -45,41 +44,19 @@ const experiences: Experience[] = [
       "JWT",
       "Gemini APIs",
       "Docker",
-      "CI/CD"
-    ]
-  },
-  {
-    company: "Franquicia Boost",
-    role: "Software Developer (Front-End) Intern",
-    type: "Internship",
-    period: "Aug 2025 – Oct 2025",
-    location: "Calgary, Alberta · Remote",
-    achievements: [
-      "Contributed to the design and development of Franquicia Boost’s official website for a Calgary-based startup with global operations.",
-      "Implemented responsive, high-performance front-end components using React, improving usability across devices.",
-      "Customized CMS-driven content workflows to enable non-technical stakeholders to manage site updates efficiently.",
-      "Collaborated directly with the CEO and leadership team, incorporating best practices influenced by experience at companies such as Shopify."
+      "CI/CD",
     ],
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "CMS",
-      "Responsive Design",
-      "Startup Delivery"
-    ]
   },
   {
     company: "Blue Giant Equipment Corporation",
-    role: "Software Developer — Industry-Sponsored Capstone Project",
-    type: "Capstone",
+    role: "Software Developer - Industry Project",
+    type: "Industry Project",
     period: "Jan 2026 – Apr 2026",
     location: "Mississauga, Ontario · Remote",
     achievements: [
-      "Engineered a full-stack MERN application aligned with real-world industrial equipment workflows.",
-      "Designed RESTful APIs, authentication flows, and reusable React components to support scalable enterprise usage.",
-      "Implemented CI/CD pipelines using Docker and GitHub Actions to streamline testing and deployment.",
-      "Collaborated with industry stakeholders to translate operational requirements into production-ready software features."
+      "Designed an enterprise-grade firmware and documentation delivery platform on AWS for industrial control panels, leveraging S3 + CDN to support scalable, multi-site IIoT deployments.",
+      "Built secure admin workflows for firmware versioning, device provisioning, site allocation, and role-based access (Admin/Technician), modeled for global manufacturing environments.",
+      "Developed device update and reporting pipelines using REST APIs and MQTT-based communication, enabling reliable firmware delivery and update status tracking in a production-style architecture.",
     ],
     tags: [
       "React",
@@ -89,46 +66,60 @@ const experiences: Experience[] = [
       "REST APIs",
       "Docker",
       "GitHub Actions",
-      "CI/CD"
-    ]
-  }
+      "CI/CD",
+    ],
+  },
 ];
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="py-24 bg-slate-900">
+    <section id="experience" className="py-28 bg-slate-900">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-white mb-2">
+        {/* Badge */}
+        <div className="flex justify-center mb-6">
+          <span className="px-4 py-1 rounded-full bg-accent-400/10 text-accent-400 text-sm font-semibold border border-accent-400/30">
+            💼 Production Experience
+          </span>
+        </div>
+
+        {/* Header */}
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Professional Experience
           </h2>
-          <p className="text-slate-400">
-            Building production-grade software across startups, industry, and research-driven teams.
+
+          <p className="text-slate-400 max-w-2xl mx-auto">
+            Building production-grade software across startups, industry, and
+            research-driven teams.
           </p>
         </div>
 
-        <div className="space-y-12">
+        {/* Timeline */}
+        <div className="relative space-y-14">
+          {/* Vertical Line */}
+          <div className="hidden sm:block absolute left-6 top-0 bottom-0 w-px bg-slate-800" />
+
           {experiences.map((exp, index) => (
-            <div key={index} className="relative pl-8 sm:pl-0">
-              {/* Timeline Connector */}
-              <div className="hidden sm:block absolute left-0 top-0 bottom-0 w-px bg-slate-800 -ml-[1px]" />
+            <div key={index} className="relative pl-12 sm:pl-20">
+              {/* Timeline Dot */}
+              <div className="hidden sm:flex absolute left-0 top-8 w-12 h-12 rounded-full bg-slate-950 border border-accent-400 items-center justify-center shadow-[0_0_20px_rgba(34,211,238,0.5)] z-10">
+                <Briefcase className="w-5 h-5 text-accent-400" />
+              </div>
 
-              <div className="group relative sm:ml-12 bg-slate-950 border border-slate-800 p-8 rounded-2xl hover:border-slate-700 transition-all">
-                {/* Timeline Dot */}
-                <div className="hidden sm:flex absolute -left-[65px] top-8 w-6 h-6 rounded-full bg-slate-900 border-2 border-accent-400 items-center justify-center shadow-[0_0_10px_rgba(34,211,238,0.3)] z-10">
-                  <div className="w-2 h-2 rounded-full bg-accent-400" />
-                </div>
-
+              {/* Card */}
+              <div className="bg-gradient-to-br from-slate-950 to-slate-900 border border-slate-800 rounded-3xl p-8 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+                {/* Header Row */}
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-6">
                   <div>
-                    <h3 className="text-xl font-bold text-white flex items-center gap-2">
-                      <Briefcase className="w-5 h-5 text-accent-400" />
+                    <h3 className="text-xl font-bold text-white">
                       {exp.company}
                     </h3>
+
                     <p className="text-lg text-slate-300 font-medium mt-1">
                       {exp.role}
                     </p>
                   </div>
+
                   <div className="text-left sm:text-right mt-2 sm:mt-0">
                     <p className="text-sm font-mono text-slate-400">
                       {exp.period}
@@ -137,11 +128,12 @@ export default function ExperienceSection() {
                   </div>
                 </div>
 
-                <ul className="space-y-3 mb-6">
+                {/* Achievements */}
+                <ul className="space-y-4 mb-7">
                   {exp.achievements.map((item, idx) => (
                     <li
                       key={idx}
-                      className="flex items-start text-slate-400 leading-relaxed"
+                      className="flex items-start text-slate-300 leading-relaxed"
                     >
                       <span className="mr-3 text-accent-400 mt-1.5 text-xs">
                         ●
@@ -151,11 +143,12 @@ export default function ExperienceSection() {
                   ))}
                 </ul>
 
-                <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-800/50">
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 pt-5 border-t border-slate-800/60">
                   {exp.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs font-semibold text-slate-500 px-2 py-1 bg-slate-900 rounded hover:text-slate-300 transition-colors"
+                      className="text-xs font-semibold text-accent-300 px-3 py-1 rounded-full bg-accent-400/10 border border-accent-400/20 hover:bg-accent-400/20 transition"
                     >
                       {tag}
                     </span>
