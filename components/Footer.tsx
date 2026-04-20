@@ -8,15 +8,6 @@ export default function Footer() {
         <p className="text-slate-500 text-sm">
           © {year} Harsimarpreet Singh Sahota. All rights reserved.
         </p>
-
-        {/* Right — Tech Stack */}
-        <p className="text-slate-500 text-sm flex flex-wrap items-center justify-center gap-1">
-          Built with{" "}
-          <span className="text-accent-400 font-semibold">Next.js</span>,{" "}
-          <span className="text-accent-400 font-semibold">TypeScript</span>, and{" "}
-          <span className="text-accent-400 font-semibold">Tailwind CSS</span> —
-          deployed on Vercel.
-        </p>
       </div>
     </footer>
   );
