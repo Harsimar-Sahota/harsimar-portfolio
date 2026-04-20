@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Harsimarpreet Singh Sahota — Software Developer Portfolio</h1>
 
 <p align="center">
-  Built with <strong>Next.js 14</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong> <br/>
+  Built with React-based framework <br/>
   Designed for performance, clarity, and long-term scalability.
 </p>
 
@@ -9,53 +9,34 @@
 
 ## 📌 Overview
 
-This repository contains the source code for my personal developer portfolio — a fully responsive, production-grade website showcasing my work, technical skills, professional experience, and impact across Alberta’s growing technology ecosystem.
+This repository contains the source code for my personal developer portfolio — a fully responsive website showcasing my projects, skills, and experience.
 
 The goal of this portfolio is simple:
 
-> **Deliver a clean, modern, high-performance experience that reflects how I build software: scalable, efficient, and user-focused.**
-
-Designed from scratch using industry-leading best practices.
-
+> Build a clean, fast, and user-friendly experience that reflects how I approach software development.
 <br/>
 
 ---
 
 ## 🧰 Tech Stack
 
-This portfolio is engineered with a modern, future-proof stack:
-
-- **Next.js 14 (App Router)** — optimized routing, server components, SEO benefits  
-- **TypeScript** — strong typing, safer and more maintainable code  
-- **Tailwind CSS** — fast UI development and consistent styling  
-- **Lucide Icons** — clean, lightweight iconography  
-- **Vercel Deployment** — global CDN, lightning-fast delivery  
-- **Responsive & Accessible** — works beautifully across devices  
-
+- Next.js — used for building UI and routing
+- TypeScript — basic usage
+- Tailwind CSS — styling
+- Lucide Icons
+- Vercel — deployment
+- Responsive design
 <br/>
 
 ---
 
 ## 🎨 Features
 
-### 🌟 Modern, flexible architecture  
-Built with a component-first mindset, making the UI easy to extend, customize, and evolve as my career grows.
-
-### ⚡ High-performance UI  
-Optimized images, server-side rendering, and minimal bundle footprint ensure excellent load times.
-
-### 🧩 Modular components  
-Every section — Hero, Experience, Projects, Skills, Leadership, Contact — is isolated and reusable.
-
-### 🌐 Alberta-focused narrative  
-The content reflects my contributions to the Alberta tech community, tailored for regional hiring teams.
-
-### 🤝 Recruiter-friendly layout  
-Clear navigation + direct Calendly link = 1-click communication.
-
-### 📱 Fully Responsive  
-Looks great on large monitors, laptops, tablets, and phones.
-
+- Clean and simple UI
+- Reusable components for different sections
+- Fast loading and responsive design
+- Easy navigation for recruiters
+- Works across all devices
 <br/>
 
 ---
@@ -115,7 +96,6 @@ http://localhost:3000
 └── tailwind.config.js
 ```
 
-This structure follows **Next.js best practices** with clean separation of concerns.
 
 <br/>
 
@@ -156,17 +136,15 @@ Let’s build something meaningful together.
 
 ## 🏆 Why This Portfolio Matters
 
-This project demonstrates:
+This project shows:
 
-✔ Real-world front-end engineering ability
-✔ Understanding of modern frameworks (Next.js, TS, Tailwind)
-✔ Clean architecture + attention to detail
-✔ Strong design sense and developer experience awareness
-✔ Ability to ship polished, professional products
-✔ Passion for Alberta’s tech ecosystem
+✔ Ability to build and deploy a full web application  
+✔ Understanding of modern tools (Next.js, TypeScript, Tailwind)  
+✔ Focus on clean UI and user experience  
+✔ Attention to detail  
+✔ Willingness to learn and improve  
 
-This isn’t just a static resume — it’s a **production-quality software artifact**.
-
+This portfolio reflects my current skills and growth as a developer.
 <br/>
 
 ---
@@ -183,5 +161,3 @@ This project is licensed under the MIT License — feel free to explore, learn, 
 
 </div>
 ```
-Notes
-This portfolio is actively maintained and updated as new projects are completed.
