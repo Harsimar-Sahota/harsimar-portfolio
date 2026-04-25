@@ -9,7 +9,7 @@ export default function AcademicEndorsementsSection() {
     "Technical Architect | Senior Full Stack Developer | .NET, Python, AWS Cloud",
   course: "Industry Recommendation",
   linkedin: "https://www.linkedin.com/in/navpreet-singh-profile/?skipRedirect=true", 
-}
+},
     {
       quote:
         "In my advanced Database Programming course, Harsimar excelled at tackling complex queries, triggers, stored procedures, and database optimizations. His ability to debug, optimize, and document solutions with the clarity of a seasoned engineer places him in the top 1% of students I’ve taught. He is absolutely ready to contribute to enterprise-level database systems.",
