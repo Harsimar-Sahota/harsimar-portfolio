@@ -33,7 +33,7 @@ export default function EducationSection() {
               </p>
 
               <p className="text-sm text-slate-500 font-mono mb-5">
-                Aug 2024 – Apr 2026
+                Sep 2024 – Sep 2026
               </p>
 
               <p className="text-slate-400 leading-relaxed">

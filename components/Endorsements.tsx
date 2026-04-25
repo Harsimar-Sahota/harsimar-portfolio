@@ -1,5 +1,15 @@
 export default function AcademicEndorsementsSection() {
   const endorsements = [
+    ,
+{
+  quote:
+    "I worked closely with Harsimarpreet during his time with our team, and he consistently operated with a level of ownership and maturity beyond expectations. He approaches problems with clarity, writes clean and maintainable code, and aligns his work with real business needs. What stood out most was his ability to think ahead, adapt quickly, and contribute meaningfully in a fast-paced environment. Harsimarpreet is dependable, focused, and easy to work with—someone who raises the standard of the team around him. I strongly recommend him for software development roles. He’s ready to contribute from day one.",
+  name: "Navpreet Singh",
+  title:
+    "Technical Architect | Senior Full Stack Developer | .NET, Python, AWS Cloud",
+  course: "Industry Recommendation",
+  linkedin: "https://www.linkedin.com/in/navpreet-singh-profile/?skipRedirect=true", 
+}
     {
       quote:
         "In my advanced Database Programming course, Harsimar excelled at tackling complex queries, triggers, stored procedures, and database optimizations. His ability to debug, optimize, and document solutions with the clarity of a seasoned engineer places him in the top 1% of students I’ve taught. He is absolutely ready to contribute to enterprise-level database systems.",
