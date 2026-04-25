@@ -1,6 +1,5 @@
 export default function AcademicEndorsementsSection() {
   const endorsements = [
-    ,
 {
   quote:
     "I worked closely with Harsimarpreet during his time with our team, and he consistently operated with a level of ownership and maturity beyond expectations. He approaches problems with clarity, writes clean and maintainable code, and aligns his work with real business needs. What stood out most was his ability to think ahead, adapt quickly, and contribute meaningfully in a fast-paced environment. Harsimarpreet is dependable, focused, and easy to work with—someone who raises the standard of the team around him. I strongly recommend him for software development roles. He’s ready to contribute from day one.",
