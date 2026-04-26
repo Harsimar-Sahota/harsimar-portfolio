@@ -144,7 +144,7 @@ I’m passionate about creating tools that bring efficiency, clarity, and impact
 
 Let’s build something meaningful together.
 
-* **Portfolio:** [https://harsimar.xyz](https://harsimar.dev) (placeholder — replace when deployed)
+* **Portfolio:** [https://harsimar.xyz](https://harsimar.dev) 
 * **LinkedIn:** [https://www.linkedin.com/in/harsimar-sahota](https://www.linkedin.com/in/harsimar-sahota)
 * **Calendly:** [https://calendly.com/harsimarsahota](https://calendly.com/harsimarsahota)
 
