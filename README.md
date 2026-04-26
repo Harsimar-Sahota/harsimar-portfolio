@@ -76,24 +76,43 @@ http://localhost:3000
 
 ```
 ├── app/
+│   ├── favicon.ico
+│   ├── globals.css
 │   ├── layout.tsx
-│   ├── page.tsx
-│   └── globals.css
+│   └── page.tsx
+│
 ├── components/
-│   ├── HeroSection.tsx
-│   ├── ProjectsSection.tsx
-│   ├── ExperienceSection.tsx
-│   ├── SkillsSection.tsx
-│   ├── EducationSection.tsx
-│   ├── LeadershipSection.tsx
+│   ├── AboutSection.tsx
 │   ├── ContactSection.tsx
+│   ├── EducationSection.tsx
+│   ├── Endorsements.tsx
+│   ├── ExperienceSection.tsx
+│   ├── Footer.tsx
+│   ├── HeroSection.tsx
+│   ├── HighlightsBar.tsx
+│   ├── LeadershipSection.tsx
 │   ├── Navbar.tsx
-│   └── Footer.tsx
+│   ├── ProjectsSections.tsx
+│   ├── RecognitionSection.tsx
+│   └── SkillsSection.tsx
+│
 ├── public/
-│   └── profile.jpg
+│   ├── HarsimarSahota_FullStackDeveloper_Resume.pdf
+│   ├── profile.jpg
+│   └── yc forage certificate.pdf
+│
 ├── types/
 │   └── index.ts
-└── tailwind.config.js
+│
+├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.js
+└── tsconfig.json
 ```
 
 
@@ -125,9 +144,8 @@ I’m passionate about creating tools that bring efficiency, clarity, and impact
 
 Let’s build something meaningful together.
 
-* **Portfolio:** [https://harsimar.dev](https://harsimar.dev) (placeholder — replace when deployed)
+* **Portfolio:** [https://harsimar.xyz](https://harsimar.dev) (placeholder — replace when deployed)
 * **LinkedIn:** [https://www.linkedin.com/in/harsimar-sahota](https://www.linkedin.com/in/harsimar-sahota)
-* **GitHub:** [https://github.com/Harsimar-Sahota](https://github.com/Harsimar-Sahota)
 * **Calendly:** [https://calendly.com/harsimarsahota](https://calendly.com/harsimarsahota)
 
 <br/>
