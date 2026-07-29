@@ -6,7 +6,6 @@ import ProjectsSection from "@/components/ProjectsSections";
 import ExperienceSection from "@/components/ExperienceSection";
 import Endorsements from "@/components/Endorsements";
 import SkillsSection from "@/components/SkillsSection";
-import CertificationsSection from "@/components/CertificationsSection";
 import AboutSection from "@/components/AboutSection";
 import EducationSection from "@/components/EducationSection";
 import LeadershipSection from "@/components/LeadershipSection";
@@ -25,7 +24,6 @@ export default function HomePage() {
         <ExperienceSection />
         <Endorsements />
         <SkillsSection />
-        <CertificationsSection />
         <AboutSection />
         <EducationSection />
         <LeadershipSection />

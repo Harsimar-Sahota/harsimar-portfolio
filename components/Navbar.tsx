@@ -8,9 +8,9 @@ const navItems: NavItem[] = [
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
-  { label: "Certifications", href: "#certifications" },
   { label: "Endorsements", href: "#endorsements" },
   { label: "About", href: "#about" },
+  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
