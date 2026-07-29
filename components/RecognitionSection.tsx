@@ -5,7 +5,7 @@ export default function RecognitionSection() {
         {/* Featured Badge */}
         <div className="flex justify-center mb-6">
           <span className="px-4 py-1 rounded-full bg-accent-400/10 text-accent-400 text-sm font-semibold border border-accent-400/30">
-            ⭐ Featured Recognition
+            Featured Recognition
           </span>
         </div>
 
@@ -16,14 +16,18 @@ export default function RecognitionSection() {
 
         {/* Subtitle */}
         <p className="text-slate-400 text-center max-w-2xl mx-auto mb-14">
-          Official success story shared by the Academic Chair of Software
-          Development at SAIT.
+          Official success story shared by the Academic Chair of the Software
+          Development Diploma at SAIT — highlighting analytical drive,
+          communication, and measurable impact.
         </p>
 
         {/* Main Card */}
         <div className="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-10 shadow-2xl overflow-hidden">
           {/* Left Accent Glow */}
-          <div className="absolute left-0 top-0 h-full w-1 bg-accent-400 shadow-[0_0_20px_rgba(34,211,238,0.8)]" />
+          <div
+            className="absolute left-0 top-0 h-full w-1 bg-accent-400 shadow-[0_0_20px_rgba(34,211,238,0.8)]"
+            aria-hidden="true"
+          />
 
           {/* Pull Quote */}
           <blockquote className="text-xl md:text-2xl font-medium text-white mb-8">
@@ -35,53 +39,55 @@ export default function RecognitionSection() {
           <div className="space-y-6 text-slate-300 leading-relaxed">
             <p>
               Originally from Hoshiarpur, India, Harsimarpreet Singh Sahota
-              pursued his Software Development Diploma at SAIT with the goal of
-              building real impact in Canada’s tech ecosystem. That journey
-              quickly translated into measurable results across Ontario and
-              Alberta.
+              pursued his diploma at SAIT with a focus on building real impact
+              in Canada. That journey quickly translated into measurable results
+              across Ontario and Alberta — grounded in analysis, collaboration,
+              and clear communication.
             </p>
 
             <p>
-              During his academic program, he completed
+              Through competitive industry placements and applied projects, he
+              developed strengths in
               <span className="text-white font-semibold">
                 {" "}
-                three competitive software internships across Ontario and
-                Alberta
-              </span>
-              , contributing to production-grade platforms used in real business
-              environments.
+                stakeholder collaboration, structured documentation, and
+                translating complex problems into actionable outcomes
+              </span>{" "}
+              within real business environments.
             </p>
 
             <p>
-              Beyond internships, he led the Google Developer Student Club
-              (GDSC) and built a scalable full-stack platform for an
+              Beyond coursework, he led campus community initiatives and
+              supported an
               <span className="text-white font-semibold">
                 {" "}
                 800+ member tech community
               </span>
-              , mentoring students and organizing MERN and AI workshops.
+              , mentoring peers and organizing workshops that strengthened
+              collaboration and knowledge sharing.
             </p>
 
             <p>
-              Through his technical writing series,
+              Through his writing series,
               <span className="italic"> Harsimar’s ByteWave</span>, he shares
-              practical insights on full-stack development, DevOps workflows,
-              and AI integration — translating real engineering challenges into
-              lessons others can apply.
+              practical insights on problem-solving, data-informed thinking, and
+              professional growth — translating real challenges into lessons
+              others can apply.
             </p>
 
             <p>
               Outside the classroom, he actively contributed to Calgary’s
-              innovation ecosystem through major tech conferences and startup
-              events, gaining exposure to founders, investors, and emerging
-              technologies shaping Alberta’s future.
+              innovation ecosystem through major conferences and startup events,
+              gaining exposure to founders, investors, and emerging practices
+              shaping Canada’s digital economy.
             </p>
 
             <p>
               Behind this progress lies
               <span className="text-white font-semibold">
                 {" "}
-                startup building, disciplined routines, and relentless growth.
+                disciplined routines, continuous learning, and relentless
+                growth.
               </span>
             </p>
           </div>

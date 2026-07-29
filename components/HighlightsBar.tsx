@@ -1,8 +1,8 @@
 const metrics = [
-  { value: "15,000+", label: "LinkedIn Followers" },
-  { value: "70%+", label: "Process Automation" },
-  { value: "Top 1%", label: "Academic Performer" },
-  { value: "3x", label: "User Engagement Growth" },
+  { value: "8+", label: "Stakeholders Engaged" },
+  { value: "25+", label: "User Stories Delivered" },
+  { value: "10 hrs", label: "Weekly Reporting Saved" },
+  { value: "30%", label: "Defects Reduced" },
 ];
 
 export default function HighlightsBar() {

@@ -8,9 +8,9 @@ const navItems: NavItem[] = [
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Endorsements", href: "#endorsements" },
   { label: "About", href: "#about" },
-  { label: "Leadership", href: "#leadership" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -60,7 +60,7 @@ export default function Navbar() {
               onClick={(e) => handleNavClick(e, "#home")}
               className="font-bold text-xl text-white tracking-tight"
             >
-              Harsimar<span className="text-accent-400">.dev</span>
+              Harsimar<span className="text-accent-400">.ba</span>
             </a>
           </div>
 

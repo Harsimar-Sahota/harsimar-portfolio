@@ -1,47 +1,63 @@
-import { Terminal, Database, Cpu, Layout } from "lucide-react";
+import {
+  ClipboardList,
+  Database,
+  Sparkles,
+  MessageSquare,
+} from "lucide-react";
 
 const skillGroups = [
   {
-    category: "Languages",
-    icon: <Terminal className="w-5 h-5 text-indigo-400" />,
-    items: ["JavaScript (ES6+)", "TypeScript", "Java", "SQL", "HTML5", "CSS3"],
-  },
-  {
-    category: "Frameworks & Libraries",
-    icon: <Layout className="w-5 h-5 text-pink-400" />,
+    category: "Business Analysis",
+    icon: <ClipboardList className="w-5 h-5 text-indigo-400" aria-hidden="true" />,
     items: [
-      "React.js",
-      "Node.js",
-      "BootStrap",
-      "Express.js",
-      "MongoDB",
-      "Tailwind CSS",
-    ],
-  },
-  {
-    category: "Developer Tools & Practices",
-    icon: <Cpu className="w-5 h-5 text-emerald-400" />,
-    items: [
-      "Git",
-      "GitHub",
-      "Docker",
-      "GitHub Actions (CI/CD)",
-      "Postman",
-      "AWS",
-      "Vercel",
+      "Requirements Gathering",
+      "Stakeholder Analysis",
+      "Gap Analysis",
+      "Business Process Analysis",
+      "User Stories",
+      "Acceptance Criteria",
+      "BRD",
+      "FRD",
       "Agile",
+      "Scrum",
       "SDLC",
-      "AI IDEs: Cursor, Windsurf",
+      "Process Mapping",
+      "Business Process Modeling",
     ],
   },
   {
-    category: "AI & Computer Science",
-    icon: <Database className="w-5 h-5 text-amber-400" />,
+    category: "Data Analysis",
+    icon: <Database className="w-5 h-5 text-emerald-400" aria-hidden="true" />,
     items: [
-      "OpenAI API",
-      "Prompt Engineering",
-      "Data Structures & Algorithms",
-      " AI Development Tools (ChatGPT, Gemini, Copilot + others)",
+      "SQL",
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "Dashboard Development",
+      "Data Visualization",
+    ],
+  },
+  {
+    category: "AI Productivity",
+    icon: <Sparkles className="w-5 h-5 text-amber-400" aria-hidden="true" />,
+    items: [
+      "ChatGPT",
+      "Microsoft Copilot",
+      "Claude",
+      "Gemini",
+      "Perplexity",
+    ],
+  },
+  {
+    category: "Soft Skills",
+    icon: <MessageSquare className="w-5 h-5 text-pink-400" aria-hidden="true" />,
+    items: [
+      "Stakeholder Communication",
+      "Presentation",
+      "Critical Thinking",
+      "Analytical Thinking",
+      "Problem Solving",
+      "Active Listening",
     ],
   },
 ];
@@ -53,19 +69,19 @@ export default function SkillsSection() {
         {/* Badge */}
         <div className="flex justify-center mb-6">
           <span className="px-4 py-1 rounded-full bg-accent-400/10 text-accent-400 text-sm font-semibold border border-accent-400/30">
-            🧠 Core Engineering Stack
+            Core Capabilities
           </span>
         </div>
 
         {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Technical Skills
+            Skills
           </h2>
 
           <p className="text-slate-400 max-w-2xl mx-auto">
-            A comprehensive toolkit designed to build scalable, high-performance
-            applications.
+            A practical toolkit for requirements analysis, stakeholder
+            collaboration, and data-driven decision support.
           </p>
         </div>
 
@@ -77,7 +93,10 @@ export default function SkillsSection() {
               className="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-8 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
               {/* Accent Glow Line */}
-              <div className="absolute left-0 top-0 h-full w-1 bg-accent-400 shadow-[0_0_20px_rgba(34,211,238,0.6)]" />
+              <div
+                className="absolute left-0 top-0 h-full w-1 bg-accent-400 shadow-[0_0_20px_rgba(34,211,238,0.6)]"
+                aria-hidden="true"
+              />
 
               {/* Header */}
               <div className="flex items-center mb-7">

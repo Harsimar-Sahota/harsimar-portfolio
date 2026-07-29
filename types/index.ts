@@ -5,7 +5,10 @@ export interface NavItem {
 
 export interface Project {
   title: string;
-  description: string;
+  problem: string;
+  analysis: string;
+  impact: string;
+  insights: string;
   link: string;
   tags: string[];
 }
@@ -30,7 +33,8 @@ export interface Education {
 export interface Certification {
   name: string;
   issuer: string;
-  year: string;
+  period: string;
+  description?: string;
 }
 
 export interface LeadershipItem {
