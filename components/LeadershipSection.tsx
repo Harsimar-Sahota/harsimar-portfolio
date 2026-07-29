@@ -4,9 +4,9 @@ import type { LeadershipItem } from "@/types";
 const items: (LeadershipItem & { icon: React.ReactNode })[] = [
   {
     title: "Thought Leadership",
-    role: "15K+ Followers",
+    role: "19,000+ Followers",
     description:
-      "Shares practical insights on analytical thinking, AI productivity, and professional growth with a LinkedIn community of over 15,000 followers.",
+      "Shares practical insights on analytical thinking, AI productivity, and professional growth with a LinkedIn community of over 19,000 followers.",
     icon: <PenTool className="w-6 h-6 text-white" aria-hidden="true" />,
   },
   {
