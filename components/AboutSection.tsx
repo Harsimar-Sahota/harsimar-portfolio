@@ -50,6 +50,11 @@ export default function AboutSection() {
             Business Intelligence, and data analytics opportunities across
             Canada.
           </p>
+
+          <p className="mt-8 text-sm text-slate-500 leading-relaxed text-left">
+            The &quot;BA&quot; in Harsimar.ba represents my focus on Business
+            Analysis and data-driven problem solving.
+          </p>
         </div>
       </div>
     </section>

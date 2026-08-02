@@ -21,6 +21,8 @@ export const metadata: Metadata = {
   keywords: [
     "Business Analyst",
     "Business Analyst Portfolio",
+    "Harsimar.ba",
+    "Harsimar BA",
     "Entry Level Business Analyst",
     "Business Analyst Canada",
     "Business Intelligence",
@@ -76,6 +78,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Harsimarpreet Singh Sahota",
+  alternateName: ["Harsimar.ba", "Harsimar BA"],
   jobTitle: "Business Analyst",
   url: siteUrl,
   email: "mailto:harsimar1288@gmail.com",

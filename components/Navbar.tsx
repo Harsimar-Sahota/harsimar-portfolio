@@ -58,9 +58,17 @@ export default function Navbar() {
             <a
               href="#home"
               onClick={(e) => handleNavClick(e, "#home")}
-              className="font-bold text-xl text-white tracking-tight"
+              className="group relative font-bold text-xl text-white tracking-tight"
+              aria-label="Harsimar BA - Business Analyst Portfolio"
+              title="Harsimar BA - Business Analyst"
             >
               Harsimar<span className="text-accent-400">.ba</span>
+              <span
+                role="tooltip"
+                className="pointer-events-none absolute left-1/2 top-full z-50 mt-2 -translate-x-1/2 whitespace-nowrap rounded-lg border border-slate-700/80 bg-slate-800/95 px-3 py-1.5 text-xs font-medium text-slate-300 opacity-0 shadow-lg shadow-black/40 transition-opacity duration-200 group-hover:opacity-100 hidden md:block"
+              >
+                BA = Business Analyst
+              </span>
             </a>
           </div>
 

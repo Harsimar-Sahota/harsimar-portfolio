@@ -15,10 +15,17 @@ export default function RecognitionSection() {
         </h2>
 
         {/* Subtitle */}
-        <p className="text-slate-400 text-center max-w-2xl mx-auto mb-14">
+        <p className="text-slate-400 text-center max-w-2xl mx-auto mb-4">
           Official success story shared by the Academic Chair of the Software
           Development Diploma at SAIT — highlighting analytical drive,
           communication, and measurable impact.
+        </p>
+
+        {/* Transparency note */}
+        <p className="text-xs text-slate-500 text-center max-w-xl mx-auto mb-14 tracking-wide">
+          This page presents a portfolio summary based on the official LinkedIn
+          Student Success Story published by SAIT Academic Chair Ali Moussa. You
+          can view the original post below.
         </p>
 
         {/* Main Card */}
@@ -35,7 +42,7 @@ export default function RecognitionSection() {
             Canada’s tech ecosystem.”
           </blockquote>
 
-          {/* Story */}
+          {/* Story — portfolio summary (not a verbatim LinkedIn quotation) */}
           <div className="space-y-6 text-slate-300 leading-relaxed">
             <p>
               Originally from Hoshiarpur, India, Harsimarpreet Singh Sahota
@@ -92,6 +99,9 @@ export default function RecognitionSection() {
             </p>
           </div>
 
+          {/* Optional: LinkedIn preview card slot (intentionally not rendered) */}
+          {/* <LinkedInPreviewCard /> */}
+
           {/* Attribution */}
           <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
@@ -101,14 +111,19 @@ export default function RecognitionSection() {
               </p>
             </div>
 
-            <a
-              href="https://www.linkedin.com/posts/ali-moussa4_software-development-diploma-activity-7429578618948972544-VQSd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW5_FAB92V-CBYUpWnMC6W0hQZipN2nPW8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-5 py-2 rounded-full bg-accent-400 text-slate-900 font-semibold hover:bg-accent-500 transition"
-            >
-              View Original Post →
-            </a>
+            <div className="flex flex-col items-start sm:items-end gap-2">
+              <span className="text-[11px] font-medium text-accent-400/80 tracking-wide">
+                ✓ Official LinkedIn Student Success Story
+              </span>
+              <a
+                href="https://www.linkedin.com/posts/ali-moussa4_software-development-diploma-activity-7429578618948972544-VQSd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW5_FAB92V-CBYUpWnMC6W0hQZipN2nPW8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-5 py-2 rounded-full bg-accent-400 text-slate-900 font-semibold hover:bg-accent-500 transition"
+              >
+                View Original LinkedIn Post →
+              </a>
+            </div>
           </div>
         </div>
       </div>
