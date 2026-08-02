@@ -11,7 +11,7 @@ export default function RecognitionSection() {
 
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
-          Featured as a SAIT Student Success Story
+          Recognized by SAIT Academic Chair
         </h2>
 
         {/* Subtitle */}
@@ -22,7 +22,7 @@ export default function RecognitionSection() {
         </p>
 
         {/* Transparency note — editorial footnote */}
-        <p className="text-[12px] text-slate-400/75 text-center max-w-xl mx-auto mb-14 tracking-wide">
+        <p className="text-[12px] text-slate-400/70 text-center max-w-xl mx-auto mb-14 tracking-wide">
           This page presents a portfolio summary based on the official LinkedIn
           Student Success Story published by SAIT Academic Chair Ali Moussa. You
           can view the original post below.

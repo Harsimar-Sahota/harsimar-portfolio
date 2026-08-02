@@ -16,14 +16,13 @@ export const metadata: Metadata = {
     template: "%s | Harsimar Sahota",
   },
   description:
-    "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, stakeholder collaboration, data analysis, and official recognition by SAIT.",
+    "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
   keywords: [
     "Business Analyst",
     "Business Analyst Portfolio",
     "Harsimar Sahota",
     "Harsimar.ba",
     "Business Analyst Canada",
-    "Stakeholder Collaboration",
     "Data Analysis",
     "SAIT",
   ],
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Harsimar Sahota — Business Analyst",
     title: "Harsimar Sahota | Business Analyst Portfolio",
     description:
-      "Explore the Business Analyst portfolio of Harsimar Sahota, featuring real-world projects, industry experience, and an official SAIT Student Success Story.",
+      "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
     images: [
       {
         url: "/profile.jpg",
@@ -50,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Harsimar Sahota | Business Analyst Portfolio",
     description:
-      "Explore the Business Analyst portfolio of Harsimar Sahota, featuring real-world projects, industry experience, and an official SAIT Student Success Story.",
+      "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
     images: ["/profile.jpg"],
   },
   robots: {
@@ -69,7 +68,7 @@ const jsonLd = {
   alternateName: ["Harsimar Sahota", "Harsimar.ba", "Harsimar BA"],
   jobTitle: "Business Analyst",
   description:
-    "Business Analyst portfolio showcasing projects, experience, stakeholder collaboration, data analysis, and official recognition by SAIT.",
+    "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
   url: siteUrl,
   email: "mailto:harsimar1288@gmail.com",
   telephone: "+1-368-299-8325",
