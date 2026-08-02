@@ -11,18 +11,18 @@ export default function RecognitionSection() {
 
         {/* Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
-          Recognized by SAIT Academic Chair
+          Featured as a SAIT Student Success Story
         </h2>
 
         {/* Subtitle */}
         <p className="text-slate-400 text-center max-w-2xl mx-auto mb-4">
-          Official success story shared by the Academic Chair of the Software
-          Development Diploma at SAIT — highlighting analytical drive,
-          communication, and measurable impact.
+          Based on the official LinkedIn Student Success Story published by SAIT
+          Academic Chair Ali Moussa, recognizing academic achievement, industry
+          experience, leadership, and professional growth.
         </p>
 
-        {/* Transparency note */}
-        <p className="text-xs text-slate-500 text-center max-w-xl mx-auto mb-14 tracking-wide">
+        {/* Transparency note — editorial footnote */}
+        <p className="text-[12px] text-slate-400/75 text-center max-w-xl mx-auto mb-14 tracking-wide">
           This page presents a portfolio summary based on the official LinkedIn
           Student Success Story published by SAIT Academic Chair Ali Moussa. You
           can view the original post below.
@@ -54,13 +54,9 @@ export default function RecognitionSection() {
 
             <p>
               Through competitive industry placements and applied projects, he
-              developed strengths in
-              <span className="text-white font-semibold">
-                {" "}
-                stakeholder collaboration, structured documentation, and
-                translating complex problems into actionable outcomes
-              </span>{" "}
-              within real business environments.
+              strengthened his analytical thinking, cross-functional
+              collaboration, and ability to solve real business problems in
+              production environments.
             </p>
 
             <p>
@@ -119,7 +115,8 @@ export default function RecognitionSection() {
                 href="https://www.linkedin.com/posts/ali-moussa4_software-development-diploma-activity-7429578618948972544-VQSd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADW5_FAB92V-CBYUpWnMC6W0hQZipN2nPW8"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-5 py-2 rounded-full bg-accent-400 text-slate-900 font-semibold hover:bg-accent-500 transition"
+                aria-label="View original LinkedIn Student Success Story (opens in a new tab)"
+                className="inline-block px-5 py-2 rounded-full bg-accent-400 text-slate-900 font-semibold hover:bg-accent-500 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400"
               >
                 View Original LinkedIn Post →
               </a>

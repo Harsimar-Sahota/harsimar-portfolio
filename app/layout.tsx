@@ -12,30 +12,20 @@ const siteUrl = "https://www.harsimar.xyz";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default:
-      "Harsimarpreet Singh Sahota | Business Analyst Portfolio — Canada",
-    template: "%s | Harsimarpreet Singh Sahota",
+    default: "Harsimar Sahota | Business Analyst Portfolio",
+    template: "%s | Harsimar Sahota",
   },
   description:
-    "Entry-level Business Analyst portfolio of Harsimarpreet Singh Sahota (Calgary, Canada). Requirements analysis, stakeholder management, SQL, Tableau, Excel, Agile, UAT, and business process improvement.",
+    "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, stakeholder collaboration, data analysis, and official recognition by SAIT.",
   keywords: [
     "Business Analyst",
     "Business Analyst Portfolio",
+    "Harsimar Sahota",
     "Harsimar.ba",
-    "Harsimar BA",
-    "Entry Level Business Analyst",
     "Business Analyst Canada",
-    "Business Intelligence",
-    "Requirements Analysis",
-    "SQL",
-    "Tableau",
-    "Excel",
+    "Stakeholder Collaboration",
     "Data Analysis",
-    "Agile",
-    "Stakeholder Management",
-    "Business Process Improvement",
-    "UAT",
-    "Calgary Business Analyst",
+    "SAIT",
   ],
   authors: [{ name: "Harsimarpreet Singh Sahota" }],
   creator: "Harsimarpreet Singh Sahota",
@@ -43,26 +33,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     url: siteUrl,
-    siteName: "Harsimarpreet Singh Sahota — Business Analyst",
-    title:
-      "Harsimarpreet Singh Sahota | Business Analyst Portfolio — Canada",
+    siteName: "Harsimar Sahota — Business Analyst",
+    title: "Harsimar Sahota | Business Analyst Portfolio",
     description:
-      "Business Analyst with experience in requirements gathering, UAT, SQL, Tableau, Excel, and Agile delivery. Open to opportunities across Canada.",
+      "Explore the Business Analyst portfolio of Harsimar Sahota, featuring real-world projects, industry experience, and an official SAIT Student Success Story.",
     images: [
       {
         url: "/profile.jpg",
         width: 400,
         height: 400,
-        alt: "Harsimarpreet Singh Sahota — Business Analyst",
+        alt: "Harsimar Sahota — Business Analyst",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title:
-      "Harsimarpreet Singh Sahota | Business Analyst Portfolio — Canada",
+    title: "Harsimar Sahota | Business Analyst Portfolio",
     description:
-      "Requirements analysis, stakeholder collaboration, SQL, Tableau, Excel, and process improvement. Entry-level BA opportunities across Canada.",
+      "Explore the Business Analyst portfolio of Harsimar Sahota, featuring real-world projects, industry experience, and an official SAIT Student Success Story.",
     images: ["/profile.jpg"],
   },
   robots: {
@@ -78,8 +66,10 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Harsimarpreet Singh Sahota",
-  alternateName: ["Harsimar.ba", "Harsimar BA"],
+  alternateName: ["Harsimar Sahota", "Harsimar.ba", "Harsimar BA"],
   jobTitle: "Business Analyst",
+  description:
+    "Business Analyst portfolio showcasing projects, experience, stakeholder collaboration, data analysis, and official recognition by SAIT.",
   url: siteUrl,
   email: "mailto:harsimar1288@gmail.com",
   telephone: "+1-368-299-8325",
