@@ -1,74 +1,71 @@
+import Image from "next/image";
+
 type Endorsement = {
-  quote: string;
   name: string;
   title: string;
   course: string;
   linkedin: string;
+  image: string;
   featured?: boolean;
   badge?: string;
 };
 
 export default function AcademicEndorsementsSection() {
   const featured: Endorsement = {
-    quote:
-      "I taught Harsimarpreet at SAIT in the course Software Projects: Analysis, Design, and Management, where he consistently demonstrated strong technical understanding, analytical thinking, and a professional approach to his work. He is capable of understanding complex requirements, working effectively in teams, and applying structured problem-solving to deliver practical solutions. He also shows strong initiative and a good balance of technical and collaborative skills. I confidently recommend Harsimar for opportunities in software engineering or related fields, as he is well-prepared to contribute in a professional environment.",
     name: "Mamta Verma",
     title:
       "Certified Business Analyst Professional (CBAP) · Instructor & Mentor",
     course: "Software Projects: Analysis, Design, and Management — SAIT",
     linkedin: "https://www.linkedin.com/in/mamta-verma-28a368115/",
+    image: "/recommendations/mamta-verma.png",
     featured: true,
     badge: "CBAP Recommendation",
   };
 
   const endorsements: Endorsement[] = [
     {
-      quote:
-        "I worked closely with Harsimarpreet during his time with our team, and he consistently operated with a level of ownership and maturity beyond expectations. He approaches problems with clarity, writes clean and maintainable code, and aligns his work with real business needs. What stood out most was his ability to think ahead, adapt quickly, and contribute meaningfully in a fast-paced environment. Harsimarpreet is dependable, focused, and easy to work with—someone who raises the standard of the team around him. I strongly recommend him for software development roles. He’s ready to contribute from day one.",
       name: "Navpreet Singh",
       title:
         "Technical Architect | Senior Full Stack Developer | .NET, Python, AWS Cloud",
       course: "Industry Recommendation",
       linkedin:
         "https://www.linkedin.com/in/navpreet-singh-profile/?skipRedirect=true",
+      image: "/recommendations/navpreet-singh.png",
     },
     {
-      quote:
-        "In my advanced Database Programming course, Harsimar excelled at tackling complex queries, triggers, stored procedures, and database optimizations. His ability to debug, optimize, and document solutions with the clarity of a seasoned engineer places him in the top 1% of students I’ve taught. He is absolutely ready to contribute to enterprise-level database systems.",
-      name: "Dr. Mohamed ElMenshawy, Ph.D.",
-      title: "OOP Instructor — SAIT",
+      name: "Mohamed E.",
+      title:
+        "Passionate Software Engineering Educator | Ph.D. (ECE) | Instructor, SAIT",
       course: "Advanced Database Programming",
       linkedin: "https://www.linkedin.com/in/mohamed-e-88a95a1b7/",
+      image: "/recommendations/mohamed-e.png",
     },
     {
-      quote:
-        "Harsimar demonstrated strong curiosity, communication skills, and a commitment to mastering both fundamentals and real-world front-end development. He showed a natural ability to collaborate, problem-solve, and think creatively — traits that make him well-suited for the software industry.",
       name: "Harinder Kaur",
-      title: "Web Development Instructor — SAIT",
+      title: "Instructor, SADT at Southern Alberta Institute of Technology (SAIT)",
       course: "Website Development",
       linkedin: "https://www.linkedin.com/in/harinder-kaur2910/",
+      image: "/recommendations/harinder-kaur.png",
     },
     {
-      quote:
-        "Harsimar consistently demonstrated a strong grasp of programming concepts, innovative thinking, and effective problem-solving. His dedication, collaboration, and proactive learning approach will make him an exceptional asset to any organization.",
       name: "Osama Alhaj, MBA",
-      title: "OOP Instructor — SAIT",
+      title:
+        "Data Analyst | Technical Curriculum Developer | Software & Programming Instructor",
       course: "Object-Oriented Programming",
       linkedin: "https://www.linkedin.com/in/osamaalhaj/",
+      image: "/recommendations/osama-alhaj.png",
     },
   ];
 
   return (
     <section id="endorsements" className="py-28 bg-slate-950">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Badge */}
         <div className="flex justify-center mb-6">
           <span className="px-4 py-1 rounded-full bg-accent-400/10 text-accent-400 text-sm font-semibold border border-accent-400/30">
             Recommendations
           </span>
         </div>
 
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Recommendations
@@ -80,8 +77,8 @@ export default function AcademicEndorsementsSection() {
           </p>
         </div>
 
-        {/* Featured CBAP Recommendation */}
-        <article className="relative mb-12 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 border border-accent-400/40 rounded-3xl p-8 md:p-10 shadow-2xl shadow-accent-400/10 overflow-hidden">
+        {/* Featured CBAP Recommendation screenshot */}
+        <article className="relative mb-12 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 border border-accent-400/40 rounded-3xl p-6 md:p-10 shadow-2xl shadow-accent-400/10 overflow-hidden">
           <div
             className="absolute left-0 top-0 h-full w-1.5 bg-accent-400 shadow-[0_0_24px_rgba(34,211,238,0.8)]"
             aria-hidden="true"
@@ -100,15 +97,19 @@ export default function AcademicEndorsementsSection() {
             </span>
           </div>
 
-          <div className="text-accent-400 text-5xl mb-4 leading-none" aria-hidden="true">
-            “
+          <div className="rounded-2xl overflow-hidden border border-slate-700 bg-white shadow-lg">
+            <Image
+              src={featured.image}
+              alt={`LinkedIn recommendation from ${featured.name} — ${featured.course}`}
+              width={1200}
+              height={700}
+              className="w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 1024px"
+              priority
+            />
           </div>
 
-          <p className="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-4xl">
-            {featured.quote}
-          </p>
-
-          <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="border-t border-slate-800 mt-6 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <p className="text-white font-bold text-lg">{featured.name}</p>
               <p className="text-accent-400 text-sm font-medium mt-1">
@@ -128,25 +129,30 @@ export default function AcademicEndorsementsSection() {
           </div>
         </article>
 
-        {/* Other Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {/* Other recommendation screenshots */}
+        <div className="grid md:grid-cols-2 gap-8">
           {endorsements.map((item) => (
             <article
               key={item.name}
-              className="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-7 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+              className="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-5 md:p-6 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
               <div
                 className="absolute left-0 top-0 h-full w-1 bg-accent-400 shadow-[0_0_20px_rgba(34,211,238,0.7)]"
                 aria-hidden="true"
               />
 
-              <div className="text-accent-400 text-4xl mb-4" aria-hidden="true">
-                “
+              <div className="rounded-xl overflow-hidden border border-slate-700 bg-white shadow-md">
+                <Image
+                  src={item.image}
+                  alt={`LinkedIn recommendation from ${item.name} — ${item.course}`}
+                  width={900}
+                  height={600}
+                  className="w-full h-auto"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
 
-              <p className="text-slate-300 leading-relaxed mb-6">{item.quote}</p>
-
-              <div className="border-t border-slate-800 pt-5 flex items-center justify-between gap-3">
+              <div className="border-t border-slate-800 mt-5 pt-5 flex items-center justify-between gap-3">
                 <div>
                   <p className="text-white font-semibold">{item.name}</p>
                   <p className="text-slate-400 text-sm">{item.title}</p>

@@ -1,104 +1,48 @@
+import Image from "next/image";
+
 export default function RecognitionSection() {
   return (
     <section id="recognition" className="py-28 bg-slate-950">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Featured Badge */}
         <div className="flex justify-center mb-6">
           <span className="px-4 py-1 rounded-full bg-accent-400/10 text-accent-400 text-sm font-semibold border border-accent-400/30">
             Featured Recognition
           </span>
         </div>
 
-        {/* Title */}
         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
           Recognized by SAIT Academic Chair
         </h2>
 
-        {/* Subtitle */}
         <p className="text-slate-400 text-center max-w-2xl mx-auto mb-4">
-          Based on the official LinkedIn Student Success Story published by SAIT
-          Academic Chair Ali Moussa, recognizing academic achievement, industry
+          Official LinkedIn Student Success Story published by SAIT Academic
+          Chair Ali Moussa, recognizing academic achievement, industry
           experience, leadership, and professional growth.
         </p>
 
-        {/* Transparency note — editorial footnote */}
         <p className="text-[12px] text-slate-400/70 text-center max-w-xl mx-auto mb-14 tracking-wide">
-          This page presents a portfolio summary based on the official LinkedIn
-          Student Success Story published by SAIT Academic Chair Ali Moussa. You
-          can view the original post below.
+          Screenshot of the original LinkedIn post. You can open the full post
+          below.
         </p>
 
-        {/* Main Card */}
-        <div className="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-10 shadow-2xl overflow-hidden">
-          {/* Left Accent Glow */}
+        <div className="relative bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-6 md:p-10 shadow-2xl overflow-hidden">
           <div
             className="absolute left-0 top-0 h-full w-1 bg-accent-400 shadow-[0_0_20px_rgba(34,211,238,0.8)]"
             aria-hidden="true"
           />
 
-          {/* Pull Quote */}
-          <blockquote className="text-xl md:text-2xl font-medium text-white mb-8">
-            “From an international student dream to measurable impact across
-            Canada’s tech ecosystem.”
-          </blockquote>
-
-          {/* Story — portfolio summary (not a verbatim LinkedIn quotation) */}
-          <div className="space-y-6 text-slate-300 leading-relaxed">
-            <p>
-              Originally from Hoshiarpur, India, Harsimarpreet Singh Sahota
-              pursued his diploma at SAIT with a focus on building real impact
-              in Canada. That journey quickly translated into measurable results
-              across Ontario and Alberta — grounded in analysis, collaboration,
-              and clear communication.
-            </p>
-
-            <p>
-              Through competitive industry placements and applied projects, he
-              strengthened his analytical thinking, cross-functional
-              collaboration, and ability to solve real business problems in
-              production environments.
-            </p>
-
-            <p>
-              Beyond coursework, he led campus community initiatives and
-              supported an
-              <span className="text-white font-semibold">
-                {" "}
-                800+ member tech community
-              </span>
-              , mentoring peers and organizing workshops that strengthened
-              collaboration and knowledge sharing.
-            </p>
-
-            <p>
-              Through his writing series,
-              <span className="italic"> Harsimar’s ByteWave</span>, he shares
-              practical insights on problem-solving, data-informed thinking, and
-              professional growth — translating real challenges into lessons
-              others can apply.
-            </p>
-
-            <p>
-              Outside the classroom, he actively contributed to Calgary’s
-              innovation ecosystem through major conferences and startup events,
-              gaining exposure to founders, investors, and emerging practices
-              shaping Canada’s digital economy.
-            </p>
-
-            <p>
-              Behind this progress lies
-              <span className="text-white font-semibold">
-                {" "}
-                disciplined routines, continuous learning, and relentless
-                growth.
-              </span>
-            </p>
+          <div className="rounded-2xl overflow-hidden border border-slate-700 bg-white shadow-lg">
+            <Image
+              src="/recommendations/sait-success-story.png"
+              alt="LinkedIn Student Success Story by Ali Moussa, Academic Chair of the Software Development Diploma at SAIT, featuring Harsimarpreet Singh Sahota"
+              width={1200}
+              height={1600}
+              className="w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 960px"
+              priority
+            />
           </div>
 
-          {/* Optional: LinkedIn preview card slot (intentionally not rendered) */}
-          {/* <LinkedInPreviewCard /> */}
-
-          {/* Attribution */}
           <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <p className="text-white font-semibold">Ali Moussa</p>
