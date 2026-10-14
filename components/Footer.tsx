@@ -13,12 +13,10 @@ export default function Footer() {
           </p>
         </div>
         <a
-          href="/HarsimarSahota_BusinessAnalyst_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#contact"
           className="text-sm text-accent-400 hover:text-accent-300 font-medium transition-colors"
         >
-          Download Resume
+          Let&apos;s Connect
         </a>
       </div>
     </footer>

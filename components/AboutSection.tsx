@@ -27,12 +27,7 @@ export default function AboutSection() {
 
           {/* Primary Summary */}
           <p className="text-xl text-slate-300 leading-relaxed font-light text-left">
-            Detail-oriented Business Analyst with practical experience in
-            requirements gathering, UAT coordination, and data-driven process
-            improvement within Agile environments. Demonstrated ability to work
-            with 8+ cross-functional stakeholders, reduce manual reporting
-            efforts by 10 hours weekly, and deliver structured user stories and
-            acceptance criteria.
+            I am a Business Analyst dedicated to bridging business stakeholders and technical delivery teams by translating complex business requirements into clear, actionable specifications. With proven internship experience facilitating workshops with 18+ cross-functional stakeholders, documenting 120+ user stories across Agile delivery cycles, and authoring BRDs, FRDs, and Gherkin acceptance criteria in Jira and Confluence, I help teams align on scope and deliver with confidence.
           </p>
 
           {/* Divider */}
@@ -41,19 +36,16 @@ export default function AboutSection() {
           </div>
 
           {/* Secondary Paragraph */}
-          <p className="text-lg text-slate-400 leading-relaxed text-left">
-            I combine proficiency in SQL, Tableau, and Excel with strong
-            stakeholder communication to bridge business and technology teams —
-            translating needs into BRDs, FRDs, process maps, and actionable
-            insights. Actively building expertise through advisory simulations
-            with PwC and KPMG, and seeking entry-level Business Analyst,
-            Business Intelligence, and data analytics opportunities across
-            Canada.
+          <p className="text-lg text-slate-400 leading-relaxed text-left mb-6">
+            My approach pairs rigorous business analysis with hands-on analytical capabilities in SQL, Tableau, Power BI, and Advanced Excel—enabling me to analyze operational workflows, develop executive dashboards, and eliminate weekly reporting bottlenecks. Through BPMN 2.0 process modeling, swimlane diagrams, and current/future-state journey mapping, I identify friction points and collaborate with development and QA teams through structured UAT coordination to reduce post-release defects.
+          </p>
+
+          <p className="text-base text-slate-400 leading-relaxed text-left">
+            I also incorporate modern AI and workflow automation tools—including prompt engineering, Microsoft Copilot, ChatGPT, and Claude—to accelerate user research, streamline documentation, and refine test scenarios. Actively preparing for the Entry Certificate in Business Analysis (ECBA™) with IIBA, I am open to Business Analyst and data-focused opportunities across Canada.
           </p>
 
           <p className="mt-8 text-sm text-slate-500 leading-relaxed text-left">
-            The &quot;BA&quot; in Harsimar.ba represents my focus on Business
-            Analysis and data-driven problem solving.
+            The &quot;.ba&quot; in Harsimar.ba represents my dedicated focus on Business Analysis, structured requirements engineering, and data-driven problem solving.
           </p>
         </div>
       </div>

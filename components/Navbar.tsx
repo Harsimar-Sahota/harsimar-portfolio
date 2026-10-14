@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, MouseEvent } from "react";
-import { Menu, X, Coffee } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import type { NavItem } from "@/types";
 
 const navItems: NavItem[] = [
@@ -85,13 +85,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://calendly.com/harsimarsahota"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-slate-900 bg-accent-400 hover:bg-accent-500 transition-all transform hover:scale-105 shadow-lg shadow-accent-400/20"
+              href="#contact"
+              onClick={(e) => handleNavClick(e, "#contact")}
+              className="inline-flex items-center px-5 py-2 border border-transparent text-sm font-medium rounded-full text-slate-900 bg-accent-400 hover:bg-accent-500 transition-all transform hover:scale-105 shadow-lg shadow-accent-400/20"
             >
-              <Coffee className="w-4 h-4 mr-2" />
-              Book Chat
+              Let&apos;s Connect
             </a>
           </div>
 
@@ -128,13 +126,11 @@ export default function Navbar() {
             ))}
             <div className="pt-4 pb-2">
               <a
-                href="https://calendly.com/harsimarsahota"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
+                onClick={(e) => handleNavClick(e, "#contact")}
                 className="flex items-center justify-center w-full px-4 py-3 border border-transparent text-base font-medium rounded-md text-slate-900 bg-accent-400 hover:bg-accent-500"
               >
-                <Coffee className="w-5 h-5 mr-2" />
-                Book a Coffee Chat
+                Let&apos;s Connect
               </a>
             </div>
           </div>

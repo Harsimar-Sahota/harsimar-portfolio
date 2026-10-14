@@ -33,7 +33,9 @@ export interface Education {
 export interface Certification {
   name: string;
   issuer: string;
-  period: string;
+  status: "Completed" | "In Progress";
+  period?: string;
+  points?: string[];
   description?: string;
 }
 

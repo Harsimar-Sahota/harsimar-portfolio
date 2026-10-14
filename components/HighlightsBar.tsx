@@ -1,8 +1,8 @@
 const metrics = [
-  { value: "8+", label: "Stakeholders Engaged" },
-  { value: "25+", label: "User Stories Delivered" },
-  { value: "10 hrs", label: "Weekly Reporting Saved" },
-  { value: "30%", label: "Defects Reduced" },
+  { value: "18+", label: "Stakeholders Engaged" },
+  { value: "120+", label: "User Stories Across 2 Internships" },
+  { value: "35 hrs", label: "Weekly Reporting Saved" },
+  { value: "35%", label: "Defects & Rework Reduced" },
 ];
 
 export default function HighlightsBar() {

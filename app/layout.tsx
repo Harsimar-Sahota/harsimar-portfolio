@@ -12,18 +12,27 @@ const siteUrl = "https://www.harsimar.xyz";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Harsimar Sahota | Business Analyst Portfolio",
+    default:
+      "Harsimarpreet Singh Sahota | Business Analyst — Data Analytics & Agile Delivery",
     template: "%s | Harsimar Sahota",
   },
   description:
-    "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
+    "Business Analyst portfolio of Harsimarpreet Singh Sahota — bridging business needs and technical delivery through requirements analysis, data analytics (SQL, Tableau, Excel), Agile delivery, and AI-enabled workflows.",
   keywords: [
     "Business Analyst",
     "Business Analyst Portfolio",
+    "Harsimarpreet Singh Sahota",
     "Harsimar Sahota",
     "Harsimar.ba",
     "Business Analyst Canada",
-    "Data Analysis",
+    "Data Analytics",
+    "Requirements Gathering",
+    "Process Improvement",
+    "Agile Delivery",
+    "UAT",
+    "SQL",
+    "Tableau",
+    "Power BI",
     "SAIT",
   ],
   authors: [{ name: "Harsimarpreet Singh Sahota" }],
@@ -32,24 +41,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     url: siteUrl,
-    siteName: "Harsimar Sahota — Business Analyst",
-    title: "Harsimar Sahota | Business Analyst Portfolio",
+    siteName: "Harsimarpreet Singh Sahota — Business Analyst",
+    title:
+      "Harsimarpreet Singh Sahota | Business Analyst — Data Analytics & Agile Delivery",
     description:
-      "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
+      "Business Analyst portfolio of Harsimarpreet Singh Sahota — bridging business needs and technical delivery through requirements analysis, data analytics (SQL, Tableau, Excel), Agile delivery, and AI-enabled workflows.",
     images: [
       {
         url: "/profile.jpg",
         width: 400,
         height: 400,
-        alt: "Harsimar Sahota — Business Analyst",
+        alt: "Harsimarpreet Singh Sahota — Business Analyst",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "Harsimar Sahota | Business Analyst Portfolio",
+    title:
+      "Harsimarpreet Singh Sahota | Business Analyst — Data Analytics & Agile Delivery",
     description:
-      "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
+      "Business Analyst portfolio of Harsimarpreet Singh Sahota — bridging business needs and technical delivery through requirements analysis, data analytics (SQL, Tableau, Excel), Agile delivery, and AI-enabled workflows.",
     images: ["/profile.jpg"],
   },
   robots: {
@@ -68,7 +79,7 @@ const jsonLd = {
   alternateName: ["Harsimar Sahota", "Harsimar.ba", "Harsimar BA"],
   jobTitle: "Business Analyst",
   description:
-    "Business Analyst portfolio of Harsimar Sahota showcasing projects, experience, data analysis, and official recognition by SAIT.",
+    "Business Analyst portfolio of Harsimarpreet Singh Sahota — bridging business needs and technical delivery through requirements analysis, data analytics (SQL, Tableau, Excel), Agile delivery, and AI-enabled workflows.",
   url: siteUrl,
   email: "mailto:harsimar1288@gmail.com",
   telephone: "+1-368-299-8325",
@@ -84,15 +95,22 @@ const jsonLd = {
   ],
   knowsAbout: [
     "Business Analysis",
-    "Requirements Gathering",
-    "Stakeholder Management",
+    "Requirements Elicitation",
+    "Stakeholder Analysis",
+    "User Stories & Acceptance Criteria",
+    "BRD/FRD Documentation",
+    "Process Mapping (BPMN 2.0)",
+    "Gap Analysis",
+    "Current-State/Future-State Modeling",
+    "UAT Coordination",
+    "Agile & Scrum",
     "SQL",
     "Tableau",
-    "Microsoft Excel",
-    "Agile",
-    "Business Intelligence",
-    "Process Improvement",
-    "UAT",
+    "Power BI",
+    "Advanced Excel",
+    "Jira & Confluence",
+    "Prompt Engineering",
+    "Workflow Automation",
   ],
   alumniOf: {
     "@type": "CollegeOrUniversity",
